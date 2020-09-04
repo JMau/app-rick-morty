@@ -6,7 +6,6 @@ export class AppRickMorty extends LitElement {
   static get properties() {
     return {
       personajes: { type: Array },
-      loadData : { type: Boolean},
     };
   }
 
@@ -36,7 +35,6 @@ export class AppRickMorty extends LitElement {
 
   constructor() {
     super();
-    this.loadData = true;
     this.personajes = [];
   }
 
