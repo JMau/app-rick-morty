@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "storybook": "start-storybook",
+    "storybook:build": "build-storybook",
+    "start": "es-dev-server --app-index index.html --node-resolve --open --watch"
+  },
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^2.0.0",
+    "es-dev-server": "^1.5.0"
+  },
+  "name": "app-rick-morty",
+  "version": "0.0.0",
+  "description": "Webcomponent app-rick-morty following open-wc recommendations",
+  "author": "app-rick-morty",
+  "license": "MIT",
+  "dependencies": {
+    "card-rick-morty": "git+https://github.com/JMau/card-rick-morty.git",
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0",
+    "lit-rick-morty": "git+https://github.com/JMau/lit-rick-morty.git"
+  }
+}
